@@ -266,7 +266,7 @@ var Mi = {
 
                 var pickedStyle = $googleMap.data('style');   
                 var myOptions = {
-                    zoom: 5,
+                    zoom: 7,
                     center: new google.maps.LatLng(yourLatitude,yourLongitude-0.03),
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     mapTypeControl: false,
